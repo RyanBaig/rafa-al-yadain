@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col flex-1 min-h-screen" style={{ backgroundColor: "var(--bg)" }}>
       <HeroSection />
 
-      <div className="flex flex-1">
+      <div className="flex flex-1 flex-col lg:flex-row">
         <Sidebar sections={sections} />
 
         <main className="flex-1 min-w-0 px-5 sm:px-8 py-10 space-y-16">
